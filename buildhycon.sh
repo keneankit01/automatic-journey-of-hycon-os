@@ -10,12 +10,12 @@ echo clonning completed
 echo starting build
 . build/envsetup.sh
 make clean
-lunch hycon_PL2-userdebug
+lunch aosp_PL2-userdebug
 make bacon
 mkdir githubpushable
 cp out/target/product/PL2/HyconOS_*.zip githubpushable
 . build/envsetup
-lunch hycon_DRG_sprout-userdebug
+lunch aosp_DRG_sprout-userdebug
 make bacon
 cp out/target/product/DRG_sprout/HyconOS_*.zip githubpushable
 echo builds are succesfull you can upload them manually to github
