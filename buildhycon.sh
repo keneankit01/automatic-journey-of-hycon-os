@@ -23,7 +23,6 @@ lunch ancient_DRG_sprout-userdebug
 make bacon
 cp out/target/product/DRG_sprout/AncientOS*.zip githubpushable
 cp out/target/product/DRG_sprout/boot.img githubpushable/DRG-boot.img
-
 make clean
 . build/envsetuo.sh
 lunch ancient_tulip-userdebug
